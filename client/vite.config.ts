@@ -10,7 +10,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'https://test-deploy-ci.onrender.com',
+        target: 'http://localhost:3001',
         secure: false,
         changeOrigin: true,
       },

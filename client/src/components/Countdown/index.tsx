@@ -5,6 +5,8 @@ interface CountdownProps {
 }
 
 const Countdown = ({ guesses, isCorrect, hasGuessed }: CountdownProps) => {
+  console.log('guesses = ', guesses)
+  console.log('hasGuessed = ', hasGuessed)
   console.log('isCorrect', isCorrect)
   return (
     <div className="countdown flex-row justify-space-evenly">
